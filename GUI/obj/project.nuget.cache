@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "n7aFxvfbeBU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HUNG\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\HUNG\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\HUNG\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
