@@ -318,6 +318,7 @@
             dgvDonHang.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvDonHang.Size = new Size(1283, 407);
             dgvDonHang.TabIndex = 0;
+            dgvDonHang.CellClick += dgvDonHang_CellClick;
             // 
             // btnThemDH
             // 
@@ -353,6 +354,7 @@
             btnSuaDH.Size = new Size(132, 56);
             btnSuaDH.TabIndex = 2;
             btnSuaDH.Text = "Sửa";
+            btnSuaDH.Click += btnSuaDH_Click;
             // 
             // btnXoaDH
             // 
