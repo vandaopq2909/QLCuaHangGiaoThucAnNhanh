@@ -73,3 +73,4 @@ D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.Asse
 D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
 D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
 D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmKhuyenMai.resources

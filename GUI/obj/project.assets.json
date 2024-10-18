@@ -3464,23 +3464,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anh quan\\.nuget\\packages\\": {},
+    "C:\\Users\\VANDAO\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nam4_HKI\\NoSQL\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "D:\\Nam4_HKI\\NoSQL\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
-      "packagesPath": "C:\\Users\\anh quan\\.nuget\\packages\\",
-      "outputPath": "D:\\Nam4_HKI\\NoSQL\\QLCuaHangGiaoThucAnNhanh\\GUI\\obj\\",
+      "projectPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+      "packagesPath": "C:\\Users\\VANDAO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\anh quan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\VANDAO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3489,8 +3492,9 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -3541,7 +3545,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
