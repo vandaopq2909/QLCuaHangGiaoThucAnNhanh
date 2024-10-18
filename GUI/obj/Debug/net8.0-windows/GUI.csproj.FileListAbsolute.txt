@@ -24,6 +24,7 @@ C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\refi
 C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\GUI.pdb
 C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
 C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+<<<<<<< HEAD
 E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.exe
 E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.deps.json
 E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
@@ -52,3 +53,54 @@ E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\
 E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
 E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
 E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmKhachHang.resources
+=======
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.exe
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.pdb
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmChinh.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmChiTietMonAn.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDangKi.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDangNhap.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDonHang.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmMonAn.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.Up2Date
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.pdb
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Cassandra.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmChinh.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmChiTietMonAn.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDangKi.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDangNhap.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDonHang.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmKhuyenMai.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmMonAn.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+>>>>>>> e30589b20211e449cda5eea55be2aff2d63bd896
