@@ -12,9 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\VANDAO\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\VANDAO\\.nuget\\packages",
-      "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
+      "C:\\Users\\anh quan\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\anh quan\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
