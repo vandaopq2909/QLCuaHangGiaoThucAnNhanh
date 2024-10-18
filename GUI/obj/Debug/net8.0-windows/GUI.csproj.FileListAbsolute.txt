@@ -24,6 +24,36 @@ C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\refi
 C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\GUI.pdb
 C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
 C:\Users\HUNG\source\repos\QLGiaoTAN_Cassandra\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+<<<<<<< HEAD
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.exe
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.deps.json
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.pdb
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\Guna.UI2.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\System.Management.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.AssemblyReference.cache
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmChinh.resources
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmChiTietMonAn.resources
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDangKi.resources
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmDangNhap.resources
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmMonAn.resources
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.Properties.Resources.resources
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.GenerateResource.cache
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfoInputs.cache
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.Up2Date
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\refint\GUI.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.pdb
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.genruntimeconfig.cache
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\ref\GUI.dll
+E:\HK I nam 4\NoSQL\Do An\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.frmKhachHang.resources
+=======
 C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.exe
 C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.deps.json
 C:\Users\VANDAO\Desktop\data_cassandra\App\QLCuaHangGiaoThucAnNhanh\GUI\bin\Debug\net8.0-windows\GUI.runtimeconfig.json
@@ -73,3 +103,4 @@ D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.Asse
 D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.AssemblyInfo.cs
 D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.csproj.CoreCompileInputs.cache
 D:\Nam4_HKI\NoSQL\QLCuaHangGiaoThucAnNhanh\GUI\obj\Debug\net8.0-windows\GUI.sourcelink.json
+>>>>>>> e30589b20211e449cda5eea55be2aff2d63bd896

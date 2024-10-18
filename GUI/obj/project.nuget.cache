@@ -1,5 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "E4Nfk0wXRi8=",
+  "success": true,
+  "projectFilePath": "E:\\HK I nam 4\\NoSQL\\Do An\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maith\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
+    "C:\\Users\\maith\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\maith\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+=======
   "dgSpecHash": "8UOiUcOE6uA=",
   "success": true,
   "projectFilePath": "D:\\Nam4_HKI\\NoSQL\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
@@ -55,6 +64,7 @@
     "C:\\Users\\anh quan\\.nuget\\packages\\system.threading.tasks.extensions\\4.0.0\\system.threading.tasks.extensions.4.0.0.nupkg.sha512",
     "C:\\Users\\anh quan\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\anh quan\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
+>>>>>>> e30589b20211e449cda5eea55be2aff2d63bd896
   ],
   "logs": []
 }
