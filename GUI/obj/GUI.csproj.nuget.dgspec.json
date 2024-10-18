@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj": {}
+    "E:\\HK I nam 4\\NoSQL\\Do An\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj": {
+    "E:\\HK I nam 4\\NoSQL\\Do An\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
+        "projectUniqueName": "E:\\HK I nam 4\\NoSQL\\Do An\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
-        "packagesPath": "C:\\Users\\HUNG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\obj\\",
+        "projectPath": "E:\\HK I nam 4\\NoSQL\\Do An\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+        "packagesPath": "C:\\Users\\maith\\.nuget\\packages\\",
+        "outputPath": "E:\\HK I nam 4\\NoSQL\\Do An\\QLCuaHangGiaoThucAnNhanh\\GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\maith\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,6 +23,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +71,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
