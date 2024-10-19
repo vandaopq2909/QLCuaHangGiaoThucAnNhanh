@@ -616,7 +616,7 @@ namespace GUI
             string mamonan = maMA;
             string madh = txtMaDH.Text;
 
-            if (mamonan.Length == 0) {
+            if (mamonan == null) {
                 MessageBox.Show("Vui lòng chọn món ăn cần xóa!");
                 return;
             }
