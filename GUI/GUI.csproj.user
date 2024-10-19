@@ -10,11 +10,10 @@
     <Compile Update="frmDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-<<<<<<< HEAD
     <Compile Update="frmKhachHang.cs">
-=======
+		<SubType>Form</SubType>
+	</Compile>
     <Compile Update="frmKhuyenMai.cs">
->>>>>>> e30589b20211e449cda5eea55be2aff2d63bd896
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="frmMonAn.cs">
