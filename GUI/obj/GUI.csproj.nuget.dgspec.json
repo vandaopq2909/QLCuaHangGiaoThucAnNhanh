@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj": {}
+    "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj": {
+    "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+        "projectUniqueName": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
         "projectName": "GUI",
-        "projectPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+        "projectPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
         "packagesPath": "C:\\Users\\VANDAO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\obj\\",
+        "outputPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
