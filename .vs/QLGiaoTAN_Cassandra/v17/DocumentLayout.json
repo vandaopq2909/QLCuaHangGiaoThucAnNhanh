@@ -1,7 +1,40 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|c:\\users\\hung\\desktop\\nosql\\code\\qlgiaotan_cassandra\\gui\\frmchitietmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmchitietmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\gui\\frmdangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|c:\\users\\hung\\desktop\\nosql\\code\\qlgiaotan_cassandra\\gui\\frmdangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|c:\\users\\hung\\desktop\\nosql\\code\\qlgiaotan_cassandra\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|c:\\users\\hung\\desktop\\nosql\\code\\qlgiaotan_cassandra\\gui\\frmmonan2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmmonan2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|c:\\users\\hung\\desktop\\nosql\\code\\qlgiaotan_cassandra\\gui\\frmchitietmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28F740A7-A666-4295-94F6-435C60AC0DDB}|GUI\\GUI.csproj|solutionrelative:gui\\frmchitietmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66909A41-C356-490B-8632-06FEFC0B7132}|DTO\\DTO.csproj|c:\\users\\hung\\desktop\\nosql\\code\\qlgiaotan_cassandra\\dto\\monandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66909A41-C356-490B-8632-06FEFC0B7132}|DTO\\DTO.csproj|solutionrelative:dto\\monandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +71,102 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDangNhap.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangNhap.cs",
+              "RelativeToolTip": "GUI\\frmDangNhap.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAqwFcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:15:26.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDangNhap.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Cassandra\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangNhap.cs [Design]",
+              "RelativeToolTip": "..\\..\\Cassandra\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:15:15.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmDangKi.cs",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangKi.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDangKi.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangKi.cs",
+              "RelativeToolTip": "GUI\\frmDangKi.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAUwCUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:05:47.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmDangKi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangKi.cs",
+              "RelativeDocumentMoniker": "GUI\\frmDangKi.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Cassandra\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangKi.cs [Design]",
+              "RelativeToolTip": "..\\..\\Cassandra\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmDangKi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:05:37.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmChiTietMonAn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmChiTietMonAn.cs",
+              "RelativeDocumentMoniker": "GUI\\frmChiTietMonAn.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmChiTietMonAn.cs [Design]",
+              "RelativeToolTip": "GUI\\frmChiTietMonAn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:03:46.583Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonAnDTO.cs",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\DTO\\MonAnDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\MonAnDTO.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\DTO\\MonAnDTO.cs",
+              "RelativeToolTip": "DTO\\MonAnDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:56:01.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMonAn2.cs",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmMonAn2.cs",
+              "RelativeDocumentMoniker": "GUI\\frmMonAn2.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmMonAn2.cs",
+              "RelativeToolTip": "GUI\\frmMonAn2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:42:36.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmChiTietMonAn.cs",
+              "DocumentMoniker": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmChiTietMonAn.cs",
+              "RelativeDocumentMoniker": "GUI\\frmChiTietMonAn.cs",
+              "ToolTip": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\frmChiTietMonAn.cs",
+              "RelativeToolTip": "GUI\\frmChiTietMonAn.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAALwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T18:14:11.495Z"
             }
           ]
         },

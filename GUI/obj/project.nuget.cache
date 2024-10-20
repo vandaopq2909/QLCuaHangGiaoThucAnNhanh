@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ind4hfKJJfY=",
+  "dgSpecHash": "XZvvUgLczJE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
+  "projectFilePath": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HUNG\\.nuget\\packages\\cassandracsharpdriver\\3.22.0\\cassandracsharpdriver.3.22.0.nupkg.sha512",
     "C:\\Users\\HUNG\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.6\\guna.ui2.winforms.2.0.4.6.nupkg.sha512",
