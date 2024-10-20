@@ -41,7 +41,7 @@ namespace GUI
 
         private void LoadData()
         {
-            List<KhuyenMai> listKM = new List<KhuyenMai> ();
+            List<KhuyenMai> listKM = new List<KhuyenMai>();
             var query = session.Execute("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa FROM KMTheoMonAn");
 
             foreach (var item in query)
@@ -75,7 +75,7 @@ namespace GUI
 
         private void btnThemKM_Click(object sender, EventArgs e)
         {
-            if (IsTextEmpty(txtMaMonAn.Text) || IsTextEmpty(txtTenKM.Text) || IsTextEmpty(txtTenMonAn.Text) || IsTextEmpty(txtTiLe.Text) || IsTextEmpty(txtMoTa.Text)) 
+            if (IsTextEmpty(txtMaMonAn.Text) || IsTextEmpty(txtTenKM.Text) || IsTextEmpty(txtTenMonAn.Text) || IsTextEmpty(txtTiLe.Text) || IsTextEmpty(txtMoTa.Text))
             {
                 MessageBox.Show("Vui lòng điền đầy đủ thông tin trước khi thêm.", "Thông báo");
                 return;
@@ -163,7 +163,8 @@ namespace GUI
         {
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn cập nhật thông tin này không?", "Xác nhận cập nhật", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-            if (result == DialogResult.Yes) {
+            if (result == DialogResult.Yes)
+            {
                 try
                 {
                     if (IsTextEmpty(txtTenKM.Text) || IsTextEmpty(txtTenMonAn.Text) || IsTextEmpty(txtTiLe.Text) || IsTextEmpty(txtMoTa.Text))
@@ -180,19 +181,25 @@ namespace GUI
                             return;
                         }
 
-                        string maMonAn = txtMaMonAn.Text;
-                        var tenKM = txtTenKM.Text;
-                        var tenMonAn = txtTenMonAn.Text;
-                        var tiLe = Double.Parse(txtTiLe.Text);
-                        var ngayBD = dtpNgayBD.Value;
-                        var ngayKT = dtpNgayKT.Value;
-                        var moTa = txtMoTa.Text;
+                        var khuyenMai = new KhuyenMai
+                        {
+                            MaMonAn = txtMaMonAn.Text,
+                            TenKM = txtTenKM.Text,
+                            TenMonAn = txtTenMonAn.Text,
+                            TiLe = double.Parse(txtTiLe.Text),
+                            NgayBD = dtpNgayBD.Value,
+                            NgayKT = dtpNgayKT.Value,
+                            MoTa = txtMoTa.Text
+                        };
 
-                        string updateQuery = "UPDATE kmtheomonan SET tile = ?, ngaybd = ?, ngaykt = ?, mota = ?, tenkm = ?, tenmonan = ? WHERE mamonan = ?";
-                        var statement = session.Prepare(updateQuery);
-                        var boundStatement = statement.Bind(tiLe, ngayBD, ngayKT, moTa, tenKM, tenMonAn, maMonAn);
+                        string deleteQuery = "DELETE FROM kmtheomonan WHERE mamonan = ?";
+                        var statement = session.Prepare(deleteQuery);
+                        var boundStatement = statement.Bind(khuyenMai.MaMonAn);
                         session.Execute(boundStatement);
-
+                        string insertQuery = "INSERT INTO kmtheomonan (mamonan, tile, ngaybd, ngaykt, mota, tenkm, tenmonan) VALUES (?, ?, ?, ?, ?, ?, ?)";
+                        var statement1 = session.Prepare(insertQuery);
+                        var boundStatement1 = statement1.Bind(khuyenMai.MaMonAn, khuyenMai.TiLe, khuyenMai.NgayBD, khuyenMai.NgayKT, khuyenMai.MoTa, khuyenMai.TenKM, khuyenMai.TenMonAn);
+                        session.Execute(boundStatement1);
                         MessageBox.Show("Cập nhật thông tin thành công!", "Thông báo");
 
                         LoadData();
@@ -203,7 +210,8 @@ namespace GUI
                         MessageBox.Show("Vui lòng chọn một dòng trong bảng Danh Sách Khuyến Mãi để sửa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     }
                 }
-                catch (Exception ex) {
+                catch (Exception ex)
+                {
                     MessageBox.Show($"Đã xảy ra lỗi: {ex.Message}", "Lỗi");
                 }
             }
@@ -224,29 +232,40 @@ namespace GUI
         private void btnLamMoi_Click(object sender, EventArgs e)
         {
             ClearForm();
+            LoadData();
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             var ngayChon = dtpNgayTimKiem.Value;
+            var ngayChonStr = ngayChon.ToString("yyyy-MM-dd HH:mm:ss");
             var tenMonAnChon = txtMonAnTimKiem.Text;
 
-            var q5 = session.Prepare("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa " + "FROM KMTheoMonAn" + "WHERE NgayBD <= ? AND NgayKT >= ?");
-            var boundStatement_q5 = q5.Bind( ngayChon, ngayChon);
+            if (!string.IsNullOrWhiteSpace(tenMonAnChon))
+            {
+                var q6 = session.Prepare("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa " +
+                                          "FROM KMTheoMonAn WHERE TenMonAn = ? ALLOW FILTERING");
+                var boundStatement_q6 = q6.Bind(tenMonAnChon);
+                var result_q6 = session.Execute(boundStatement_q6);
 
-            var result_q5 = session.Execute(boundStatement_q5);
+                DisplayResults(result_q6);
+            }
+            else
+            {
+                var q5 = session.Prepare("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa " +
+                                          "FROM KMTheoMonAn " +
+                                          "WHERE NgayBD = ? AND NgayKT >= ? ALLOW FILTERING");
+                var boundStatement_q5 = q5.Bind(ngayChon, ngayChon);
+                var result_q5 = session.Execute(boundStatement_q5);
 
-            var q6 = session.Prepare("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa " + "FROM KMTheoMonAn" + "WHERE TenMonAn = ? AND NgayBD <= ? AND NgayKT >= ?");
-            var boundStatement_q6 = q6.Bind( tenMonAnChon, ngayChon, ngayChon);
-
-            var result_q6 = session.Execute(boundStatement_q6);
-
-            DisplayResults(result_q5, result_q6);
+                DisplayResults(result_q5);
+            }
         }
 
         private void dgvDanhSachKhuyenMai_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (e.RowIndex >= 0) { 
+            if (e.RowIndex >= 0)
+            {
                 DataGridViewRow selectedRow = dgvDanhSachKhuyenMai.Rows[e.RowIndex];
 
                 txtMaMonAn.Text = selectedRow.Cells["MaMonAn"].Value?.ToString();
@@ -259,11 +278,11 @@ namespace GUI
             }
         }
 
-        private void DisplayResults(IEnumerable<Row> q5, IEnumerable<Row> q6)
+        private void DisplayResults(IEnumerable<Row> result)
         {
             dgvDanhSachKhuyenMai.Rows.Clear();
 
-            foreach (var row in q5)
+            foreach (var row in result)
             {
                 dgvDanhSachKhuyenMai.Rows.Add(
                     row.GetValue<string>("mamonan"),
@@ -275,19 +294,20 @@ namespace GUI
                     row.GetValue<string>("mota")
                 );
             }
+        }
 
-            foreach (var row in q6)
-            {
-                dgvDanhSachKhuyenMai.Rows.Add(
-                    row.GetValue<string>("mamonan"),
-                    row.GetValue<string>("tenkm"),
-                    row.GetValue<string>("tenmonan"),
-                    row.GetValue<double>("tile"),
-                    row.GetValue<DateTime>("ngaybd"),
-                    row.GetValue<DateTime>("ngaykt"),
-                    row.GetValue<string>("mota")
-                );
-            }
+        private void btnBoChonNgay_Click(object sender, EventArgs e)
+        {
+            dtpNgayTimKiem.Visible = !dtpNgayTimKiem.Visible;
+
+            dtpNgayTimKiem.Enabled = dtpNgayTimKiem.Visible;
+        }
+
+        private void btnBoChonMonAn_Click(object sender, EventArgs e)
+        {
+            txtMonAnTimKiem.Visible = !txtMonAnTimKiem.Visible;
+
+            txtMonAnTimKiem.Enabled = txtMonAnTimKiem.Visible;
         }
     }
 }
