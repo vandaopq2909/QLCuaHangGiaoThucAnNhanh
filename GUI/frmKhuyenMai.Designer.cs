@@ -32,8 +32,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -54,13 +52,22 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             groupBox1 = new GroupBox();
-            tBoxMoTa = new RichTextBox();
             label7 = new Label();
-            dptNgayKT = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            dtpNgayKT = new Guna.UI2.WinForms.Guna2DateTimePicker();
             dtpNgayBD = new Guna.UI2.WinForms.Guna2DateTimePicker();
             label6 = new Label();
             label5 = new Label();
@@ -70,26 +77,35 @@
             label3 = new Label();
             txtTenKM = new Guna.UI2.WinForms.Guna2TextBox();
             label2 = new Label();
-            txtMaKM = new Guna.UI2.WinForms.Guna2TextBox();
+            txtMaMonAn = new Guna.UI2.WinForms.Guna2TextBox();
             label1 = new Label();
-            btnThemDH = new Guna.UI2.WinForms.Guna2Button();
-            btnXoaDH = new Guna.UI2.WinForms.Guna2Button();
-            btnSuaDH = new Guna.UI2.WinForms.Guna2Button();
+            btnThemKM = new Guna.UI2.WinForms.Guna2Button();
+            btnXoaKM = new Guna.UI2.WinForms.Guna2Button();
+            btnSuaKM = new Guna.UI2.WinForms.Guna2Button();
             btnLuu = new Guna.UI2.WinForms.Guna2Button();
             btnLamMoi = new Guna.UI2.WinForms.Guna2Button();
             groupBox2 = new GroupBox();
-            dataGridView1 = new DataGridView();
-            MaKM = new DataGridViewTextBoxColumn();
+            dgvDanhSachKhuyenMai = new DataGridView();
+            MaMonAn = new DataGridViewTextBoxColumn();
             TenKM = new DataGridViewTextBoxColumn();
             TenMonAn = new DataGridViewTextBoxColumn();
+            TiLe = new DataGridViewTextBoxColumn();
             NgayBD = new DataGridViewTextBoxColumn();
             NgayKT = new DataGridViewTextBoxColumn();
             MoTa = new DataGridViewTextBoxColumn();
+            groupBox3 = new GroupBox();
+            btnTimKiem = new Guna.UI2.WinForms.Guna2Button();
+            dtpNgayTimKiem = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            txtMonAnTimKiem = new Guna.UI2.WinForms.Guna2TextBox();
+            label8 = new Label();
+            label9 = new Label();
+            txtMoTa = new Guna.UI2.WinForms.Guna2TextBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvDanhSachKhuyenMai).BeginInit();
+            groupBox3.SuspendLayout();
             SuspendLayout();
             // 
             // guna2Panel1
@@ -102,7 +118,7 @@
             guna2Panel1.Location = new Point(0, 0);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2Panel1.Size = new Size(841, 142);
+            guna2Panel1.Size = new Size(998, 142);
             guna2Panel1.TabIndex = 1;
             // 
             // guna2HtmlLabel1
@@ -131,9 +147,9 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(tBoxMoTa);
+            groupBox1.Controls.Add(txtMoTa);
             groupBox1.Controls.Add(label7);
-            groupBox1.Controls.Add(dptNgayKT);
+            groupBox1.Controls.Add(dtpNgayKT);
             groupBox1.Controls.Add(dtpNgayBD);
             groupBox1.Controls.Add(label6);
             groupBox1.Controls.Add(label5);
@@ -143,7 +159,7 @@
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(txtTenKM);
             groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(txtMaKM);
+            groupBox1.Controls.Add(txtMaMonAn);
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(12, 163);
             groupBox1.Name = "groupBox1";
@@ -151,14 +167,6 @@
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Thông Tin Khuyến Mãi";
-            // 
-            // tBoxMoTa
-            // 
-            tBoxMoTa.Location = new Point(26, 315);
-            tBoxMoTa.Name = "tBoxMoTa";
-            tBoxMoTa.Size = new Size(550, 84);
-            tBoxMoTa.TabIndex = 3;
-            tBoxMoTa.Text = "";
             // 
             // label7
             // 
@@ -171,33 +179,33 @@
             label7.TabIndex = 28;
             label7.Text = "Mô Tả";
             // 
-            // dptNgayKT
+            // dtpNgayKT
             // 
-            dptNgayKT.Checked = true;
-            dptNgayKT.CustomizableEdges = customizableEdges5;
-            dptNgayKT.FillColor = Color.DarkGoldenrod;
-            dptNgayKT.Font = new Font("Segoe UI", 9F);
-            dptNgayKT.Format = DateTimePickerFormat.Short;
-            dptNgayKT.Location = new Point(374, 247);
-            dptNgayKT.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
-            dptNgayKT.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
-            dptNgayKT.Name = "dptNgayKT";
-            dptNgayKT.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            dptNgayKT.Size = new Size(202, 36);
-            dptNgayKT.TabIndex = 27;
-            dptNgayKT.Value = new DateTime(2024, 10, 17, 21, 43, 4, 538);
+            dtpNgayKT.Checked = true;
+            dtpNgayKT.CustomizableEdges = customizableEdges7;
+            dtpNgayKT.FillColor = Color.DarkGoldenrod;
+            dtpNgayKT.Font = new Font("Segoe UI", 9F);
+            dtpNgayKT.Format = DateTimePickerFormat.Short;
+            dtpNgayKT.Location = new Point(374, 247);
+            dtpNgayKT.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            dtpNgayKT.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            dtpNgayKT.Name = "dtpNgayKT";
+            dtpNgayKT.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            dtpNgayKT.Size = new Size(202, 36);
+            dtpNgayKT.TabIndex = 27;
+            dtpNgayKT.Value = new DateTime(2024, 10, 17, 21, 43, 4, 538);
             // 
             // dtpNgayBD
             // 
             dtpNgayBD.Checked = true;
-            dtpNgayBD.CustomizableEdges = customizableEdges7;
+            dtpNgayBD.CustomizableEdges = customizableEdges9;
             dtpNgayBD.Font = new Font("Segoe UI", 9F);
             dtpNgayBD.Format = DateTimePickerFormat.Short;
             dtpNgayBD.Location = new Point(26, 242);
             dtpNgayBD.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpNgayBD.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpNgayBD.Name = "dtpNgayBD";
-            dtpNgayBD.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            dtpNgayBD.ShadowDecoration.CustomizableEdges = customizableEdges10;
             dtpNgayBD.Size = new Size(202, 36);
             dtpNgayBD.TabIndex = 26;
             dtpNgayBD.Value = new DateTime(2024, 10, 17, 21, 43, 4, 538);
@@ -237,7 +245,7 @@
             // 
             // txtTiLe
             // 
-            txtTiLe.CustomizableEdges = customizableEdges9;
+            txtTiLe.CustomizableEdges = customizableEdges11;
             txtTiLe.DefaultText = "";
             txtTiLe.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtTiLe.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -252,13 +260,13 @@
             txtTiLe.PasswordChar = '\0';
             txtTiLe.PlaceholderText = "";
             txtTiLe.SelectedText = "";
-            txtTiLe.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            txtTiLe.ShadowDecoration.CustomizableEdges = customizableEdges12;
             txtTiLe.Size = new Size(202, 41);
             txtTiLe.TabIndex = 22;
             // 
             // txtTenMonAn
             // 
-            txtTenMonAn.CustomizableEdges = customizableEdges11;
+            txtTenMonAn.CustomizableEdges = customizableEdges13;
             txtTenMonAn.DefaultText = "";
             txtTenMonAn.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtTenMonAn.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -273,7 +281,7 @@
             txtTenMonAn.PasswordChar = '\0';
             txtTenMonAn.PlaceholderText = "";
             txtTenMonAn.SelectedText = "";
-            txtTenMonAn.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtTenMonAn.ShadowDecoration.CustomizableEdges = customizableEdges14;
             txtTenMonAn.Size = new Size(202, 41);
             txtTenMonAn.TabIndex = 21;
             // 
@@ -290,7 +298,7 @@
             // 
             // txtTenKM
             // 
-            txtTenKM.CustomizableEdges = customizableEdges13;
+            txtTenKM.CustomizableEdges = customizableEdges15;
             txtTenKM.DefaultText = "";
             txtTenKM.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtTenKM.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -305,7 +313,7 @@
             txtTenKM.PasswordChar = '\0';
             txtTenKM.PlaceholderText = "";
             txtTenKM.SelectedText = "";
-            txtTenKM.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            txtTenKM.ShadowDecoration.CustomizableEdges = customizableEdges16;
             txtTenKM.Size = new Size(202, 41);
             txtTenKM.TabIndex = 19;
             // 
@@ -320,26 +328,26 @@
             label2.TabIndex = 18;
             label2.Text = "Tên Khuyến Mãi";
             // 
-            // txtMaKM
+            // txtMaMonAn
             // 
-            txtMaKM.CustomizableEdges = customizableEdges15;
-            txtMaKM.DefaultText = "";
-            txtMaKM.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            txtMaKM.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            txtMaKM.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            txtMaKM.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            txtMaKM.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtMaKM.Font = new Font("Segoe UI", 13.8F);
-            txtMaKM.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtMaKM.Location = new Point(26, 72);
-            txtMaKM.Margin = new Padding(5, 6, 5, 6);
-            txtMaKM.Name = "txtMaKM";
-            txtMaKM.PasswordChar = '\0';
-            txtMaKM.PlaceholderText = "";
-            txtMaKM.SelectedText = "";
-            txtMaKM.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            txtMaKM.Size = new Size(202, 41);
-            txtMaKM.TabIndex = 17;
+            txtMaMonAn.CustomizableEdges = customizableEdges17;
+            txtMaMonAn.DefaultText = "";
+            txtMaMonAn.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtMaMonAn.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtMaMonAn.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtMaMonAn.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtMaMonAn.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtMaMonAn.Font = new Font("Segoe UI", 13.8F);
+            txtMaMonAn.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtMaMonAn.Location = new Point(26, 72);
+            txtMaMonAn.Margin = new Padding(5, 6, 5, 6);
+            txtMaMonAn.Name = "txtMaMonAn";
+            txtMaMonAn.PasswordChar = '\0';
+            txtMaMonAn.PlaceholderText = "";
+            txtMaMonAn.SelectedText = "";
+            txtMaMonAn.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            txtMaMonAn.Size = new Size(202, 41);
+            txtMaMonAn.TabIndex = 17;
             // 
             // label1
             // 
@@ -348,64 +356,67 @@
             label1.ForeColor = Color.Black;
             label1.Location = new Point(26, 35);
             label1.Name = "label1";
-            label1.Size = new Size(182, 31);
+            label1.Size = new Size(140, 31);
             label1.TabIndex = 16;
-            label1.Text = "Mã Khuyến Mãi";
+            label1.Text = "Mã Món Ăn";
             // 
-            // btnThemDH
+            // btnThemKM
             // 
-            btnThemDH.CustomizableEdges = customizableEdges17;
-            btnThemDH.DisabledState.BorderColor = Color.DarkGray;
-            btnThemDH.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnThemDH.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnThemDH.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnThemDH.FillColor = Color.ForestGreen;
-            btnThemDH.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 163);
-            btnThemDH.ForeColor = Color.White;
-            btnThemDH.Location = new Point(657, 173);
-            btnThemDH.Name = "btnThemDH";
-            btnThemDH.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            btnThemDH.Size = new Size(132, 56);
-            btnThemDH.TabIndex = 3;
-            btnThemDH.Text = "Thêm";
+            btnThemKM.CustomizableEdges = customizableEdges19;
+            btnThemKM.DisabledState.BorderColor = Color.DarkGray;
+            btnThemKM.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnThemKM.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnThemKM.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnThemKM.FillColor = Color.ForestGreen;
+            btnThemKM.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 163);
+            btnThemKM.ForeColor = Color.White;
+            btnThemKM.Location = new Point(657, 173);
+            btnThemKM.Name = "btnThemKM";
+            btnThemKM.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnThemKM.Size = new Size(132, 56);
+            btnThemKM.TabIndex = 3;
+            btnThemKM.Text = "Thêm";
+            btnThemKM.Click += btnThemKM_Click;
             // 
-            // btnXoaDH
+            // btnXoaKM
             // 
-            btnXoaDH.CustomizableEdges = customizableEdges19;
-            btnXoaDH.DisabledState.BorderColor = Color.DarkGray;
-            btnXoaDH.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnXoaDH.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnXoaDH.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnXoaDH.FillColor = Color.Red;
-            btnXoaDH.Font = new Font("Segoe UI", 12F);
-            btnXoaDH.ForeColor = Color.White;
-            btnXoaDH.Location = new Point(657, 257);
-            btnXoaDH.Name = "btnXoaDH";
-            btnXoaDH.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            btnXoaDH.Size = new Size(132, 56);
-            btnXoaDH.TabIndex = 4;
-            btnXoaDH.Text = "Xóa";
+            btnXoaKM.CustomizableEdges = customizableEdges21;
+            btnXoaKM.DisabledState.BorderColor = Color.DarkGray;
+            btnXoaKM.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnXoaKM.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnXoaKM.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnXoaKM.FillColor = Color.Red;
+            btnXoaKM.Font = new Font("Segoe UI", 12F);
+            btnXoaKM.ForeColor = Color.White;
+            btnXoaKM.Location = new Point(657, 257);
+            btnXoaKM.Name = "btnXoaKM";
+            btnXoaKM.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btnXoaKM.Size = new Size(132, 56);
+            btnXoaKM.TabIndex = 4;
+            btnXoaKM.Text = "Xóa";
+            btnXoaKM.Click += btnXoaKM_Click;
             // 
-            // btnSuaDH
+            // btnSuaKM
             // 
-            btnSuaDH.CustomizableEdges = customizableEdges21;
-            btnSuaDH.DisabledState.BorderColor = Color.DarkGray;
-            btnSuaDH.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnSuaDH.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnSuaDH.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnSuaDH.FillColor = Color.Blue;
-            btnSuaDH.Font = new Font("Segoe UI", 12F);
-            btnSuaDH.ForeColor = Color.White;
-            btnSuaDH.Location = new Point(657, 341);
-            btnSuaDH.Name = "btnSuaDH";
-            btnSuaDH.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            btnSuaDH.Size = new Size(132, 56);
-            btnSuaDH.TabIndex = 5;
-            btnSuaDH.Text = "Sửa";
+            btnSuaKM.CustomizableEdges = customizableEdges23;
+            btnSuaKM.DisabledState.BorderColor = Color.DarkGray;
+            btnSuaKM.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSuaKM.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSuaKM.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSuaKM.FillColor = Color.Blue;
+            btnSuaKM.Font = new Font("Segoe UI", 12F);
+            btnSuaKM.ForeColor = Color.White;
+            btnSuaKM.Location = new Point(657, 341);
+            btnSuaKM.Name = "btnSuaKM";
+            btnSuaKM.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnSuaKM.Size = new Size(132, 56);
+            btnSuaKM.TabIndex = 5;
+            btnSuaKM.Text = "Sửa";
+            btnSuaKM.Click += btnSuaKM_Click;
             // 
             // btnLuu
             // 
-            btnLuu.CustomizableEdges = customizableEdges23;
+            btnLuu.CustomizableEdges = customizableEdges25;
             btnLuu.DisabledState.BorderColor = Color.DarkGray;
             btnLuu.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLuu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -416,14 +427,15 @@
             btnLuu.ForeColor = Color.White;
             btnLuu.Location = new Point(657, 429);
             btnLuu.Name = "btnLuu";
-            btnLuu.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnLuu.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnLuu.Size = new Size(132, 56);
             btnLuu.TabIndex = 6;
             btnLuu.Text = "Lưu";
+            btnLuu.Click += btnLuu_Click;
             // 
             // btnLamMoi
             // 
-            btnLamMoi.CustomizableEdges = customizableEdges25;
+            btnLamMoi.CustomizableEdges = customizableEdges27;
             btnLamMoi.DisabledState.BorderColor = Color.DarkGray;
             btnLamMoi.DisabledState.CustomBorderColor = Color.DarkGray;
             btnLamMoi.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -432,38 +444,40 @@
             btnLamMoi.ForeColor = Color.White;
             btnLamMoi.Location = new Point(657, 516);
             btnLamMoi.Name = "btnLamMoi";
-            btnLamMoi.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnLamMoi.ShadowDecoration.CustomizableEdges = customizableEdges28;
             btnLamMoi.Size = new Size(132, 56);
             btnLamMoi.TabIndex = 7;
             btnLamMoi.Text = "Làm Mới";
+            btnLamMoi.Click += btnLamMoi_Click;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(dataGridView1);
-            groupBox2.Location = new Point(12, 616);
+            groupBox2.Controls.Add(dgvDanhSachKhuyenMai);
+            groupBox2.Location = new Point(12, 742);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(817, 259);
+            groupBox2.Size = new Size(974, 265);
             groupBox2.TabIndex = 8;
             groupBox2.TabStop = false;
             groupBox2.Text = "Danh Sách Khuyến Mãi";
             // 
-            // dataGridView1
+            // dgvDanhSachKhuyenMai
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { MaKM, TenKM, TenMonAn, NgayBD, NgayKT, MoTa });
-            dataGridView1.Location = new Point(6, 26);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(805, 227);
-            dataGridView1.TabIndex = 0;
+            dgvDanhSachKhuyenMai.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvDanhSachKhuyenMai.Columns.AddRange(new DataGridViewColumn[] { MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa });
+            dgvDanhSachKhuyenMai.Location = new Point(6, 32);
+            dgvDanhSachKhuyenMai.Name = "dgvDanhSachKhuyenMai";
+            dgvDanhSachKhuyenMai.RowHeadersWidth = 51;
+            dgvDanhSachKhuyenMai.Size = new Size(962, 227);
+            dgvDanhSachKhuyenMai.TabIndex = 0;
+            dgvDanhSachKhuyenMai.CellClick += dgvDanhSachKhuyenMai_CellClick;
             // 
-            // MaKM
+            // MaMonAn
             // 
-            MaKM.Frozen = true;
-            MaKM.HeaderText = "Mã Khuyến Mãi";
-            MaKM.MinimumWidth = 6;
-            MaKM.Name = "MaKM";
-            MaKM.Width = 125;
+            MaMonAn.Frozen = true;
+            MaMonAn.HeaderText = "Mã Món Ăn";
+            MaMonAn.MinimumWidth = 6;
+            MaMonAn.Name = "MaMonAn";
+            MaMonAn.Width = 125;
             // 
             // TenKM
             // 
@@ -481,8 +495,17 @@
             TenMonAn.Name = "TenMonAn";
             TenMonAn.Width = 125;
             // 
+            // TiLe
+            // 
+            TiLe.Frozen = true;
+            TiLe.HeaderText = "Tỉ Lệ";
+            TiLe.MinimumWidth = 6;
+            TiLe.Name = "TiLe";
+            TiLe.Width = 125;
+            // 
             // NgayBD
             // 
+            NgayBD.Frozen = true;
             NgayBD.HeaderText = "Ngày Bắt Đầu";
             NgayBD.MinimumWidth = 6;
             NgayBD.Name = "NgayBD";
@@ -502,17 +525,129 @@
             MoTa.Name = "MoTa";
             MoTa.Width = 125;
             // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(btnTimKiem);
+            groupBox3.Controls.Add(dtpNgayTimKiem);
+            groupBox3.Controls.Add(txtMonAnTimKiem);
+            groupBox3.Controls.Add(label8);
+            groupBox3.Controls.Add(label9);
+            groupBox3.Location = new Point(13, 596);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(810, 140);
+            groupBox3.TabIndex = 9;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Tra Cứu Thông Tin Khuyến Mãi";
+            // 
+            // btnTimKiem
+            // 
+            btnTimKiem.CustomizableEdges = customizableEdges29;
+            btnTimKiem.DisabledState.BorderColor = Color.DarkGray;
+            btnTimKiem.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnTimKiem.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnTimKiem.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnTimKiem.FillColor = Color.FromArgb(255, 128, 128);
+            btnTimKiem.Font = new Font("Segoe UI", 12F);
+            btnTimKiem.ForeColor = Color.White;
+            btnTimKiem.Location = new Point(644, 46);
+            btnTimKiem.Name = "btnTimKiem";
+            btnTimKiem.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            btnTimKiem.Size = new Size(132, 56);
+            btnTimKiem.TabIndex = 10;
+            btnTimKiem.Text = "Tìm Kiếm";
+            btnTimKiem.Click += btnTimKiem_Click;
+            // 
+            // dtpNgayTimKiem
+            // 
+            dtpNgayTimKiem.Checked = true;
+            dtpNgayTimKiem.CustomizableEdges = customizableEdges31;
+            dtpNgayTimKiem.Font = new Font("Segoe UI", 9F);
+            dtpNgayTimKiem.Format = DateTimePickerFormat.Short;
+            dtpNgayTimKiem.Location = new Point(201, 33);
+            dtpNgayTimKiem.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            dtpNgayTimKiem.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            dtpNgayTimKiem.Name = "dtpNgayTimKiem";
+            dtpNgayTimKiem.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            dtpNgayTimKiem.Size = new Size(394, 32);
+            dtpNgayTimKiem.TabIndex = 31;
+            dtpNgayTimKiem.Value = new DateTime(2024, 10, 17, 21, 43, 4, 538);
+            // 
+            // txtMonAnTimKiem
+            // 
+            txtMonAnTimKiem.CustomizableEdges = customizableEdges33;
+            txtMonAnTimKiem.DefaultText = "";
+            txtMonAnTimKiem.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtMonAnTimKiem.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtMonAnTimKiem.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtMonAnTimKiem.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtMonAnTimKiem.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtMonAnTimKiem.Font = new Font("Segoe UI", 13.8F);
+            txtMonAnTimKiem.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtMonAnTimKiem.Location = new Point(201, 84);
+            txtMonAnTimKiem.Margin = new Padding(5, 6, 5, 6);
+            txtMonAnTimKiem.Name = "txtMonAnTimKiem";
+            txtMonAnTimKiem.PasswordChar = '\0';
+            txtMonAnTimKiem.PlaceholderText = "";
+            txtMonAnTimKiem.SelectedText = "";
+            txtMonAnTimKiem.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            txtMonAnTimKiem.Size = new Size(394, 31);
+            txtMonAnTimKiem.TabIndex = 29;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.Black;
+            label8.Location = new Point(25, 84);
+            label8.Name = "label8";
+            label8.Size = new Size(168, 31);
+            label8.TabIndex = 30;
+            label8.Text = "Chọn Món Ăn:";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label9.ForeColor = Color.Black;
+            label9.Location = new Point(25, 33);
+            label9.Name = "label9";
+            label9.Size = new Size(138, 31);
+            label9.TabIndex = 29;
+            label9.Text = "Chọn Ngày:";
+            // 
+            // txtMoTa
+            // 
+            txtMoTa.CustomizableEdges = customizableEdges5;
+            txtMoTa.DefaultText = "";
+            txtMoTa.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtMoTa.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtMoTa.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtMoTa.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtMoTa.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtMoTa.Font = new Font("Segoe UI", 13.8F);
+            txtMoTa.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtMoTa.Location = new Point(26, 318);
+            txtMoTa.Margin = new Padding(5, 6, 5, 6);
+            txtMoTa.Name = "txtMoTa";
+            txtMoTa.PasswordChar = '\0';
+            txtMoTa.PlaceholderText = "";
+            txtMoTa.SelectedText = "";
+            txtMoTa.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            txtMoTa.Size = new Size(550, 91);
+            txtMoTa.TabIndex = 29;
+            // 
             // frmKhuyenMai
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(841, 887);
+            ClientSize = new Size(998, 1019);
+            Controls.Add(groupBox3);
             Controls.Add(groupBox2);
             Controls.Add(btnLamMoi);
             Controls.Add(btnLuu);
-            Controls.Add(btnSuaDH);
-            Controls.Add(btnXoaDH);
-            Controls.Add(btnThemDH);
+            Controls.Add(btnSuaKM);
+            Controls.Add(btnXoaKM);
+            Controls.Add(btnThemKM);
             Controls.Add(groupBox1);
             Controls.Add(guna2Panel1);
             Name = "frmKhuyenMai";
@@ -523,7 +658,9 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvDanhSachKhuyenMai).EndInit();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -541,24 +678,31 @@
         private Label label3;
         private Guna.UI2.WinForms.Guna2TextBox txtTenKM;
         private Label label2;
-        private Guna.UI2.WinForms.Guna2TextBox txtMaKM;
+        private Guna.UI2.WinForms.Guna2TextBox txtMaMonAn;
         private Label label1;
         private Label label7;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dptNgayKT;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayKT;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayBD;
-        private RichTextBox tBoxMoTa;
-        private Guna.UI2.WinForms.Guna2Button btnThemDH;
-        private Guna.UI2.WinForms.Guna2Button btnXoaDH;
-        private Guna.UI2.WinForms.Guna2Button btnSuaDH;
+        private Guna.UI2.WinForms.Guna2Button btnThemKM;
+        private Guna.UI2.WinForms.Guna2Button btnXoaKM;
+        private Guna.UI2.WinForms.Guna2Button btnSuaKM;
         private Guna.UI2.WinForms.Guna2Button btnLuu;
         private Guna.UI2.WinForms.Guna2Button btnLamMoi;
         private GroupBox groupBox2;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn MaKM;
+        private DataGridView dgvDanhSachKhuyenMai;
+        private GroupBox groupBox3;
+        private Label label9;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpNgayTimKiem;
+        private Guna.UI2.WinForms.Guna2TextBox txtMonAnTimKiem;
+        private Label label8;
+        private Guna.UI2.WinForms.Guna2Button btnTimKiem;
+        private DataGridViewTextBoxColumn MaMonAn;
         private DataGridViewTextBoxColumn TenKM;
         private DataGridViewTextBoxColumn TenMonAn;
+        private DataGridViewTextBoxColumn TiLe;
         private DataGridViewTextBoxColumn NgayBD;
         private DataGridViewTextBoxColumn NgayKT;
         private DataGridViewTextBoxColumn MoTa;
+        private Guna.UI2.WinForms.Guna2TextBox txtMoTa;
     }
 }
