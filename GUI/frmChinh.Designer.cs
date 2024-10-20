@@ -124,6 +124,7 @@
             btnNhanVien.TabIndex = 8;
             btnNhanVien.Text = "Quản lí nhân viên";
             btnNhanVien.Visible = false;
+            btnNhanVien.Click += btnNhanVien_Click;
             // 
             // btnKhachHang
             // 
@@ -178,6 +179,7 @@
             btnDonHang.Size = new Size(320, 74);
             btnDonHang.TabIndex = 5;
             btnDonHang.Text = "Đơn hàng";
+            btnDonHang.Click += btnDonHang_Click;
             // 
             // btnMonAn
             // 
@@ -284,7 +286,7 @@
             Controls.Add(panelCenter);
             Controls.Add(guna2Panel1);
             Name = "frmChinh";
-            Text = "Form1";
+            Text = "Quản lí giao thức ăn nhanh";
             Load += frmChinh_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();

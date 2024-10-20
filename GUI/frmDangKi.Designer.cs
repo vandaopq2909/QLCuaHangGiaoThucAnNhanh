@@ -182,7 +182,7 @@
             Controls.Add(panel1);
             Name = "frmDangKi";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Đăng nhập";
+            Text = "Đăng kí";
             Load += frmDangKi_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
