@@ -23,5 +23,11 @@
     <Compile Update="frmMonAn.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmMonAn2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ucMonAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
