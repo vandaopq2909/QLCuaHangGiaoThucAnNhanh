@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            textBox3 = new TextBox();
-            label4 = new Label();
             button2 = new Button();
             button1 = new Button();
             textBox2 = new TextBox();
@@ -40,6 +38,8 @@
             panel2 = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            textBox3 = new TextBox();
+            label4 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -61,24 +61,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(558, 618);
             panel1.TabIndex = 0;
-            // 
-            // textBox3
-            // 
-            textBox3.Font = new Font("Segoe UI", 13.8F);
-            textBox3.Location = new Point(53, 501);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(422, 38);
-            textBox3.TabIndex = 8;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 13.8F);
-            label4.Location = new Point(53, 456);
-            label4.Name = "label4";
-            label4.Size = new Size(201, 31);
-            label4.TabIndex = 7;
-            label4.Text = "Nhập lại mật khẩu";
             // 
             // button2
             // 
@@ -172,6 +154,24 @@
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
+            // textBox3
+            // 
+            textBox3.Font = new Font("Segoe UI", 13.8F);
+            textBox3.Location = new Point(53, 501);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(422, 38);
+            textBox3.TabIndex = 8;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 13.8F);
+            label4.Location = new Point(53, 456);
+            label4.Name = "label4";
+            label4.Size = new Size(201, 31);
+            label4.TabIndex = 7;
+            label4.Text = "Nhập lại mật khẩu";
+            // 
             // frmDangKi
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -179,7 +179,6 @@
             ClientSize = new Size(558, 618);
             Controls.Add(panel1);
             Name = "frmDangKi";
-            StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng nhập";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
