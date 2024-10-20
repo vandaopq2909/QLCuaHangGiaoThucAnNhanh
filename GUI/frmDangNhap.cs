@@ -54,13 +54,13 @@ namespace GUI
 
             //Dùng để lấy mk băm
             var statement1 = session.Prepare("SELECT * FROM nguoidung WHERE tendangnhap = ?;");
-            var result1= session.Execute(statement1.Bind(tenDangNhap));
+            var result1 = session.Execute(statement1.Bind(tenDangNhap));
             var row1 = result1.FirstOrDefault();
 
             var statement = session.Prepare("SELECT COUNT(*) FROM nguoidung WHERE tendangnhap = ? AND matkhau = ? allow filtering ;");
             var result = session.Execute(statement.Bind(tenDangNhap, matKhau));
             var row = result.FirstOrDefault();
-            if (row != null &&  row1!=null)
+            if (row != null && row1 != null)
             {
                 string hashedPassword = row1.GetValue<string>("matkhau");
 
@@ -98,9 +98,14 @@ namespace GUI
 
         private void btnDangKi_Click(object sender, EventArgs e)
         {
-            frmDangKi frmDK=new frmDangKi();
+            frmDangKi frmDK = new frmDangKi();
             frmDK.Show();
             this.Hide();
+        }
+
+        private void frmDangNhap_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

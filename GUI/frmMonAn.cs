@@ -68,7 +68,7 @@ namespace GUI
                 }
                 else
                 {
-                    uc.hinhAnh = Image.FromFile("C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\Resources\\dish.png");
+                    uc.hinhAnh = Image.FromFile("C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\Resources\\dish.png");
                 }
                 uc.gia = monAn.Gia;
 
@@ -119,7 +119,7 @@ namespace GUI
                 }
                 else
                 {
-                    uc.hinhAnh = Image.FromFile("C:\\Users\\HUNG\\source\\repos\\QLGiaoTAN_Cassandra\\GUI\\Resources\\dish.png");
+                    uc.hinhAnh = Image.FromFile("C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\DuPhong\\QLCuaHangGiaoThucAnNhanh\\GUI\\Resources\\dish.png");
                 }
                 uc.gia = monAn.Gia;
 

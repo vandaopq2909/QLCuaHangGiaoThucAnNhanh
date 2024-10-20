@@ -505,6 +505,7 @@
             ClientSize = new Size(1283, 749);
             Controls.Add(guna2Panel2);
             Controls.Add(guna2Panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frmKhachHang";
             Text = "Khách Hàng";
             guna2Panel2.ResumeLayout(false);
