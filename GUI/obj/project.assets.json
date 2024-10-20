@@ -896,6 +896,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
       }
     }
   },
@@ -3455,36 +3465,34 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "CassandraCSharpDriver >= 3.22.0",
+      "DTO >= 1.0.0",
       "Guna.UI2.WinForms >= 2.0.4.6"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\VANDAO\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\HUNG\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
+      "projectUniqueName": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
       "projectName": "GUI",
-      "projectPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\GUI.csproj",
-      "packagesPath": "C:\\Users\\VANDAO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VANDAO\\Desktop\\data_cassandra\\App\\QLCuaHangGiaoThucAnNhanh\\GUI\\obj\\",
+      "projectPath": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\GUI.csproj",
+      "packagesPath": "C:\\Users\\HUNG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\GUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\VANDAO\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\HUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3492,14 +3500,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\DTO\\DTO.csproj": {
+              "projectPath": "C:\\Users\\HUNG\\Desktop\\NoSQL\\Code\\QLGiaoTAN_Cassandra\\DTO\\DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3545,7 +3556,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
