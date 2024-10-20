@@ -13,11 +13,17 @@
     <Compile Update="frmKhuyenMai.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="frmDonHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="frmMonAn.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="frmDonHang.cs">
+    <Compile Update="frmMonAn2.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ucMonAn.cs">
+      <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
 </Project>
