@@ -164,7 +164,7 @@
             txtDiaChi.SelectedText = "";
             txtDiaChi.ShadowDecoration.CustomizableEdges = customizableEdges4;
             txtDiaChi.Size = new Size(343, 36);
-            txtDiaChi.TabIndex = 7;
+            txtDiaChi.TabIndex = 8;
             // 
             // txtTrangThai
             // 
@@ -270,7 +270,7 @@
             label7.Location = new Point(12, 365);
             label7.Name = "label7";
             label7.Size = new Size(57, 20);
-            label7.TabIndex = 7;
+            label7.TabIndex = 8;
             label7.Text = "Địa Chỉ";
             // 
             // cboKH
@@ -348,11 +348,11 @@
             // 
             groupBox2.Controls.Add(dgvCTDonHang);
             groupBox2.Dock = DockStyle.Bottom;
-            groupBox2.Location = new Point(0, 725);
+            groupBox2.Location = new Point(0, 741);
             groupBox2.Margin = new Padding(3, 4, 3, 4);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(3, 4, 3, 4);
-            groupBox2.Size = new Size(1289, 228);
+            groupBox2.Size = new Size(1289, 212);
             groupBox2.TabIndex = 6;
             groupBox2.TabStop = false;
             groupBox2.Text = "Chi Tiết Đơn Hàng";
@@ -367,7 +367,7 @@
             dgvCTDonHang.ReadOnly = true;
             dgvCTDonHang.RowHeadersWidth = 51;
             dgvCTDonHang.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvCTDonHang.Size = new Size(1283, 200);
+            dgvCTDonHang.Size = new Size(1283, 184);
             dgvCTDonHang.TabIndex = 0;
             // 
             // btnThemDH
@@ -380,7 +380,7 @@
             btnThemDH.FillColor = Color.ForestGreen;
             btnThemDH.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 163);
             btnThemDH.ForeColor = Color.White;
-            btnThemDH.Location = new Point(122, 435);
+            btnThemDH.Location = new Point(122, 424);
             btnThemDH.Name = "btnThemDH";
             btnThemDH.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnThemDH.Size = new Size(132, 56);
@@ -398,7 +398,7 @@
             btnSuaDH.FillColor = Color.Blue;
             btnSuaDH.Font = new Font("Segoe UI", 12F);
             btnSuaDH.ForeColor = Color.White;
-            btnSuaDH.Location = new Point(353, 435);
+            btnSuaDH.Location = new Point(353, 424);
             btnSuaDH.Name = "btnSuaDH";
             btnSuaDH.ShadowDecoration.CustomizableEdges = customizableEdges20;
             btnSuaDH.Size = new Size(132, 56);
@@ -416,7 +416,7 @@
             btnXoaDH.FillColor = Color.Red;
             btnXoaDH.Font = new Font("Segoe UI", 12F);
             btnXoaDH.ForeColor = Color.White;
-            btnXoaDH.Location = new Point(584, 435);
+            btnXoaDH.Location = new Point(584, 424);
             btnXoaDH.Name = "btnXoaDH";
             btnXoaDH.ShadowDecoration.CustomizableEdges = customizableEdges22;
             btnXoaDH.Size = new Size(132, 56);
@@ -433,7 +433,7 @@
             btnLamMoi.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             btnLamMoi.Font = new Font("Segoe UI", 12F);
             btnLamMoi.ForeColor = Color.White;
-            btnLamMoi.Location = new Point(1046, 435);
+            btnLamMoi.Location = new Point(1046, 424);
             btnLamMoi.Name = "btnLamMoi";
             btnLamMoi.ShadowDecoration.CustomizableEdges = customizableEdges24;
             btnLamMoi.Size = new Size(132, 56);
@@ -452,7 +452,7 @@
             btnLuu.FillColor = Color.FromArgb(255, 128, 0);
             btnLuu.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 163);
             btnLuu.ForeColor = Color.White;
-            btnLuu.Location = new Point(815, 435);
+            btnLuu.Location = new Point(815, 424);
             btnLuu.Name = "btnLuu";
             btnLuu.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnLuu.Size = new Size(132, 56);
@@ -464,9 +464,9 @@
             // 
             groupBox3.Controls.Add(dgvDonHang);
             groupBox3.Dock = DockStyle.Bottom;
-            groupBox3.Location = new Point(0, 497);
+            groupBox3.Location = new Point(0, 529);
             groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(1289, 228);
+            groupBox3.Size = new Size(1289, 212);
             groupBox3.TabIndex = 7;
             groupBox3.TabStop = false;
             groupBox3.Text = "Danh Sách Đơn Hàng";
@@ -481,7 +481,7 @@
             dgvDonHang.ReadOnly = true;
             dgvDonHang.RowHeadersWidth = 51;
             dgvDonHang.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvDonHang.Size = new Size(1283, 202);
+            dgvDonHang.Size = new Size(1283, 186);
             dgvDonHang.TabIndex = 1;
             dgvDonHang.CellClick += dgvDonHang_CellClick;
             // 

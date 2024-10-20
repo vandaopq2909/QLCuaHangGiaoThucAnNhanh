@@ -191,7 +191,7 @@ namespace GUI
         {
             txtMaDH.Clear();
             dtpNgayDat.Value = DateTime.Now;
-            txtTongTien.Clear();
+            txtTongTien.Text = "0";
             txtPTTT.Clear();
             txtTrangThai.Clear();
             txtDiaChi.Clear();
@@ -243,14 +243,7 @@ namespace GUI
                 MessageBox.Show("Vui lòng chọn Ngày Đặt hợp lệ!");
                 dtpNgayDat.Focus();
                 return;
-            }
-
-            if (txtTongTien.Text.Trim().Length == 0)
-            {
-                MessageBox.Show("Vui lòng nhập Tổng Tiền!");
-                txtTongTien.Focus();
-                return;
-            }
+            }          
 
             if (txtPTTT.Text.Trim().Length == 0)
             {
@@ -298,6 +291,7 @@ namespace GUI
 
                 session.Execute(boundStatement);
 
+                updatePTTTCuaKHBangMaKH(makh);
                 MessageBox.Show("Thêm đơn hàng thành công!");
                 btnLuu.Enabled = false;
                 loadDSDonHang();
@@ -306,6 +300,21 @@ namespace GUI
             catch
             {
                 MessageBox.Show("Thêm đơn hàng thất bại!");
+            }
+        }
+
+        private void updatePTTTCuaKHBangMaKH(string? makh)
+        {
+            try
+            {
+                // Cập nhật phương thức thanh toán
+                string updateQuery = "UPDATE ttkhtheopttt SET ptthanhtoan = ? WHERE makh = ?";
+                var updateStatement = session.Prepare(updateQuery);
+                var boundUpdateStatement = updateStatement.Bind(txtPTTT.Text.Trim(), makh);
+                session.Execute(boundUpdateStatement);
+            }
+            catch (Exception ex) { 
+                MessageBox.Show("Lỗi cập nhật phương thức thanh toán: " + ex.Message);
             }
         }
 
@@ -402,6 +411,7 @@ namespace GUI
 
                 session.Execute(boundStatement);
 
+                updatePTTTCuaKHBangMaKH(makh);
                 MessageBox.Show("Đã cập nhật đơn hàng thành công!");
                 loadDSDonHang();
                 data_binding();
@@ -511,6 +521,8 @@ namespace GUI
             int soluong = 1;
             double tongtien = 0;
             double dongia = 0;
+            int soluongHienTai = 0;
+            int slmoi = 0;
             try
             {
                 string query1 = "SELECT * FROM monan WHERE mamonan = ? ALLOW FILTERING";
@@ -537,13 +549,17 @@ namespace GUI
                 if (r != null) // Nếu món ăn đã tồn tại
                 {
                     // Lấy giá trị hiện tại của soluong              
-                    int soluongHienTai = r.GetValue<int>("soluong");
+                    soluongHienTai = r.GetValue<int>("soluong");
 
                     // Cập nhật số lượng và tổng tiền
                     string updateQuery = "UPDATE ctdonhang SET soluong = ?, tongtien = ? WHERE madh = ? AND mamonan = ?";
                     var updateStatement = session.Prepare(updateQuery);
-                    var boundUpdateStatement = updateStatement.Bind(soluongHienTai + 1, (soluongHienTai + 1) * dongia, madh, mamonan);
+                    slmoi = soluongHienTai + 1;
+                    var boundUpdateStatement = updateStatement.Bind(slmoi, slmoi * dongia, madh, mamonan);
                     session.Execute(boundUpdateStatement);
+
+                    //cập nhật lại số lượng đã đặt của món ăn đó
+                    CapNhatSoLuongMonAnKhiThem(maMA, slmoi);
                 }
                 else // Nếu món ăn chưa tồn tại
                 {
@@ -552,6 +568,9 @@ namespace GUI
                     var insertStatement = session.Prepare(insertQuery);
                     var boundInsertStatement = insertStatement.Bind(madh, mamonan, soluong, tenmonan, tongtien);
                     session.Execute(boundInsertStatement);
+
+                    //cập nhật lại số lượng đã đặt của món ăn đó
+                    CapNhatSoLuongMonAnKhiThem(maMA, soluongHienTai + 1);
                 }
 
                 MessageBox.Show("Đã cập nhật chi tiết đơn hàng thành công!");
@@ -565,6 +584,40 @@ namespace GUI
                 MessageBox.Show("Cập nhật chi tiết đơn hàng thất bại!");
             }
         }
+
+        public void CapNhatSoLuongMonAnKhiThem(string mamonan, int soLuongThayDoi)
+        {
+            try
+            {
+                // Lấy số lượng đã đặt hiện tại từ bảng MonAn
+                string getSoLuongQuery = "SELECT sldadat, gia FROM monan WHERE mamonan = ? ALLOW FILTERING";
+                var getSoLuongStatement = session.Prepare(getSoLuongQuery);
+                var boundGetSoLuongStatement = getSoLuongStatement.Bind(mamonan);
+                var getSoLuongResult = session.Execute(boundGetSoLuongStatement);
+
+                double gia = 0;
+                var row = getSoLuongResult.FirstOrDefault();
+                if (row != null)
+                {
+                    int soluongDaDatHienTai = row.GetValue<int>("sldadat");
+                    gia = row.GetValue<double>("gia");
+
+                    // Cập nhật số lượng mới cho món ăn
+                    int soluongCapNhat = soluongDaDatHienTai + soLuongThayDoi;  // +1 hoặc -1
+                    string updateMonAnQuery = "UPDATE monan SET sldadat = ? WHERE mamonan = ? AND gia = ?";
+                    var updateMonAnStatement = session.Prepare(updateMonAnQuery);
+                    var boundUpdateMonAnStatement = updateMonAnStatement.Bind(soluongCapNhat, mamonan, gia);
+                    session.Execute(boundUpdateMonAnStatement);
+
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi cập nhật số lượng món ăn: " + ex.Message);
+            }
+        }
+
         public void TinhTongTienDonHang(string madh)
         {
             try
@@ -629,6 +682,8 @@ namespace GUI
                 var deleteBoundStatement = deletePreparedStatement.Bind(madh, maMA);
 
                 session.Execute(deleteBoundStatement);
+
+                CapNhatSoLuongMonAnKhiThem(maMA, -1);
 
                 MessageBox.Show("Xóa Món Ăn thành công!");
                 TinhTongTienDonHang(madh);

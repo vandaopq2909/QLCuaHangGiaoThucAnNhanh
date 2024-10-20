@@ -71,5 +71,20 @@ namespace GUI
         {
             AddControl(new frmNhanVien());
         }
+
+        private void frmChinh_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnKhuyenMai_Click(object sender, EventArgs e)
+        {
+            AddControl(new frmKhuyenMai());
+        }
+
+        private void btnKhachHang_Click(object sender, EventArgs e)
+        {
+            AddControl(new frmKhachHang());
+        }
     }
 }

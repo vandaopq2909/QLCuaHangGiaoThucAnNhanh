@@ -143,6 +143,7 @@
             btnKhachHang.Size = new Size(320, 74);
             btnKhachHang.TabIndex = 7;
             btnKhachHang.Text = "Khách hàng";
+            btnKhachHang.Click += btnKhachHang_Click;
             // 
             // btnKhuyenMai
             // 
@@ -161,6 +162,7 @@
             btnKhuyenMai.Size = new Size(320, 74);
             btnKhuyenMai.TabIndex = 6;
             btnKhuyenMai.Text = "Khuyến mãi";
+            btnKhuyenMai.Click += btnKhuyenMai_Click;
             // 
             // btnDonHang
             // 
@@ -248,10 +250,10 @@
             panelCenter.BackColor = Color.White;
             panelCenter.CustomizableEdges = customizableEdges19;
             panelCenter.Dock = DockStyle.Bottom;
-            panelCenter.Location = new Point(376, 63);
+            panelCenter.Location = new Point(376, 40);
             panelCenter.Name = "panelCenter";
             panelCenter.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            panelCenter.Size = new Size(807, 914);
+            panelCenter.Size = new Size(807, 937);
             panelCenter.TabIndex = 1;
             // 
             // guna2Panel3
@@ -263,17 +265,17 @@
             guna2Panel3.Location = new Point(376, 0);
             guna2Panel3.Name = "guna2Panel3";
             guna2Panel3.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2Panel3.Size = new Size(807, 71);
+            guna2Panel3.Size = new Size(807, 40);
             guna2Panel3.TabIndex = 2;
             // 
             // lblTenDN
             // 
             lblTenDN.AutoSize = true;
-            lblTenDN.Font = new Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblTenDN.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 163);
             lblTenDN.ForeColor = Color.DarkSlateGray;
-            lblTenDN.Location = new Point(24, 22);
+            lblTenDN.Location = new Point(26, 9);
             lblTenDN.Name = "lblTenDN";
-            lblTenDN.Size = new Size(146, 38);
+            lblTenDN.Size = new Size(107, 28);
             lblTenDN.TabIndex = 0;
             lblTenDN.Text = "Tên và vai";
             // 
@@ -287,6 +289,7 @@
             Controls.Add(guna2Panel1);
             Name = "frmChinh";
             Text = "Quản lí giao thức ăn nhanh";
+            FormClosed += frmChinh_FormClosed;
             Load += frmChinh_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
