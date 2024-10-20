@@ -61,5 +61,15 @@ namespace GUI
         {
             AddControl(new frmMonAn2());
         }
+
+        private void btnDonHang_Click(object sender, EventArgs e)
+        {
+            AddControl(new frmDonHang());
+        }
+
+        private void btnNhanVien_Click(object sender, EventArgs e)
+        {
+            AddControl(new frmNhanVien());
+        }
     }
 }

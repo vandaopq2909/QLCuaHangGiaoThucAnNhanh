@@ -51,16 +51,31 @@ namespace GUI
             NguoiDungDTO nguoiDungDTO = new NguoiDungDTO(tenDangNhap, matKhau);
             var cluster = Cluster.Builder().AddContactPoints("localhost").Build();
             var session = cluster.Connect("qlgiaotan");
+
+            //Dùng để lấy mk băm
+            var statement1 = session.Prepare("SELECT * FROM nguoidung WHERE tendangnhap = ?;");
+            var result1= session.Execute(statement1.Bind(tenDangNhap));
+            var row1 = result1.FirstOrDefault();
+
             var statement = session.Prepare("SELECT COUNT(*) FROM nguoidung WHERE tendangnhap = ? AND matkhau = ? allow filtering ;");
             var result = session.Execute(statement.Bind(tenDangNhap, matKhau));
             var row = result.FirstOrDefault();
-            if (row != null && row.GetValue<Int64>("count") > 0)
+            if (row != null &&  row1!=null)
             {
-                MessageBox.Show("Đăng nhập thành công");
-                frmChinh frmChinh = new frmChinh();
-                frmChinh.tenDangNhap = tenDangNhap;
-                frmChinh.Show();
-                this.Hide();
+                string hashedPassword = row1.GetValue<string>("matkhau");
+
+                if (BCrypt.Net.BCrypt.Verify(matKhau, hashedPassword))
+                {
+                    MessageBox.Show("Đăng nhập thành công");
+                    frmChinh frmChinh = new frmChinh();
+                    frmChinh.tenDangNhap = tenDangNhap;
+                    frmChinh.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Tên đăng nhập hoặc mật khẩu không đúng.");
+                }
             }
             else
             {

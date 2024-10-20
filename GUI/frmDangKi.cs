@@ -59,8 +59,10 @@ namespace GUI
                 MessageBox.Show("Mật khẩu không trùng khớp");
                 return;
             }
-            var cql = session.Prepare("Insert into nguoidung(tendangnhap,matkhau,vaitro) values (?,?,?);");
-            var bindvalue = cql.Bind(txtTenDangNhap.Text, txtMatKhau.Text, "Nhân viên");
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(txtMatKhau.Text);
+
+            var cql = session.Prepare("INSERT INTO nguoidung (tendangnhap, matkhau, vaitro) VALUES (?, ?, ?);");
+            var bindvalue = cql.Bind(txtTenDangNhap.Text, hashedPassword, "Admin");
             session.Execute(bindvalue);
             MessageBox.Show("Tạo tài khoản thành công");
             frmDangNhap frmDN=new frmDangNhap();

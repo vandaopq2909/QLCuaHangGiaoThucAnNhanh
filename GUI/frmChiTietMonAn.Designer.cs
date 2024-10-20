@@ -295,7 +295,7 @@
             Controls.Add(guna2Panel1);
             Name = "frmChiTietMonAn";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "frmChiTietMonAn";
+            Text = "Chi tiết món ăn";
             Load += frmChiTietMonAn_Load;
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();

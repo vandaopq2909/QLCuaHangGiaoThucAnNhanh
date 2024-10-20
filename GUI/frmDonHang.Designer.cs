@@ -561,6 +561,7 @@
             Controls.Add(btnThemDH);
             Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);
             Name = "frmDonHang";
             StartPosition = FormStartPosition.CenterScreen;
