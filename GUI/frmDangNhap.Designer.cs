@@ -29,12 +29,13 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            button2 = new Button();
-            button1 = new Button();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            label2 = new Label();
+            ckbHienThiMatKhau = new Guna.UI2.WinForms.Guna2CheckBox();
+            btnDangKi = new Button();
+            btnDangNhap = new Button();
+            txtMatKhau = new TextBox();
+            txtTenDN = new TextBox();
+            lblMatKhau = new Label();
+            lblTenDN = new Label();
             panel2 = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
@@ -45,12 +46,13 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(button2);
-            panel1.Controls.Add(button1);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
+            panel1.Controls.Add(ckbHienThiMatKhau);
+            panel1.Controls.Add(btnDangKi);
+            panel1.Controls.Add(btnDangNhap);
+            panel1.Controls.Add(txtMatKhau);
+            panel1.Controls.Add(txtTenDN);
+            panel1.Controls.Add(lblMatKhau);
+            panel1.Controls.Add(lblTenDN);
             panel1.Controls.Add(panel2);
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
@@ -58,65 +60,88 @@
             panel1.Size = new Size(558, 618);
             panel1.TabIndex = 0;
             // 
-            // button2
+            // ckbHienThiMatKhau
             // 
-            button2.BackColor = Color.Red;
-            button2.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.White;
-            button2.Location = new Point(311, 517);
-            button2.Name = "button2";
-            button2.Size = new Size(155, 55);
-            button2.TabIndex = 6;
-            button2.Text = "Đăng kí";
-            button2.UseVisualStyleBackColor = false;
+            ckbHienThiMatKhau.AutoSize = true;
+            ckbHienThiMatKhau.Checked = true;
+            ckbHienThiMatKhau.CheckedState.BorderColor = Color.FromArgb(94, 148, 255);
+            ckbHienThiMatKhau.CheckedState.BorderRadius = 0;
+            ckbHienThiMatKhau.CheckedState.BorderThickness = 0;
+            ckbHienThiMatKhau.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
+            ckbHienThiMatKhau.CheckState = CheckState.Checked;
+            ckbHienThiMatKhau.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            ckbHienThiMatKhau.Location = new Point(55, 494);
+            ckbHienThiMatKhau.Name = "ckbHienThiMatKhau";
+            ckbHienThiMatKhau.Size = new Size(188, 32);
+            ckbHienThiMatKhau.TabIndex = 7;
+            ckbHienThiMatKhau.Text = "Hiển thị mật khẩu";
+            ckbHienThiMatKhau.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
+            ckbHienThiMatKhau.UncheckedState.BorderRadius = 0;
+            ckbHienThiMatKhau.UncheckedState.BorderThickness = 0;
+            ckbHienThiMatKhau.UncheckedState.FillColor = Color.FromArgb(125, 137, 149);
+            ckbHienThiMatKhau.CheckedChanged += ckbHienThiMatKhau_CheckedChanged;
             // 
-            // button1
+            // btnDangKi
             // 
-            button1.BackColor = Color.HotPink;
-            button1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.White;
-            button1.Location = new Point(53, 517);
-            button1.Name = "button1";
-            button1.Size = new Size(155, 55);
-            button1.TabIndex = 5;
-            button1.Text = "Đăng nhập";
-            button1.UseVisualStyleBackColor = false;
+            btnDangKi.BackColor = Color.Red;
+            btnDangKi.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDangKi.ForeColor = Color.White;
+            btnDangKi.Location = new Point(320, 542);
+            btnDangKi.Name = "btnDangKi";
+            btnDangKi.Size = new Size(155, 55);
+            btnDangKi.TabIndex = 6;
+            btnDangKi.Text = "Đăng kí";
+            btnDangKi.UseVisualStyleBackColor = false;
+            btnDangKi.Click += btnDangKi_Click;
             // 
-            // textBox2
+            // btnDangNhap
             // 
-            textBox2.Font = new Font("Segoe UI", 13.8F);
-            textBox2.Location = new Point(53, 444);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(422, 38);
-            textBox2.TabIndex = 4;
+            btnDangNhap.BackColor = Color.HotPink;
+            btnDangNhap.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDangNhap.ForeColor = Color.White;
+            btnDangNhap.Location = new Point(53, 542);
+            btnDangNhap.Name = "btnDangNhap";
+            btnDangNhap.Size = new Size(155, 55);
+            btnDangNhap.TabIndex = 5;
+            btnDangNhap.Text = "Đăng nhập";
+            btnDangNhap.UseVisualStyleBackColor = false;
+            btnDangNhap.Click += button1_Click;
             // 
-            // textBox1
+            // txtMatKhau
             // 
-            textBox1.Font = new Font("Segoe UI", 13.8F);
-            textBox1.Location = new Point(53, 346);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(422, 38);
-            textBox1.TabIndex = 3;
+            txtMatKhau.Font = new Font("Segoe UI", 13.8F);
+            txtMatKhau.Location = new Point(53, 444);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(422, 38);
+            txtMatKhau.TabIndex = 4;
             // 
-            // label3
+            // txtTenDN
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 13.8F);
-            label3.Location = new Point(53, 398);
-            label3.Name = "label3";
-            label3.Size = new Size(110, 31);
-            label3.TabIndex = 2;
-            label3.Text = "Mật khẩu";
+            txtTenDN.Font = new Font("Segoe UI", 13.8F);
+            txtTenDN.Location = new Point(53, 346);
+            txtTenDN.Name = "txtTenDN";
+            txtTenDN.Size = new Size(422, 38);
+            txtTenDN.TabIndex = 3;
             // 
-            // label2
+            // lblMatKhau
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 13.8F);
-            label2.Location = new Point(53, 302);
-            label2.Name = "label2";
-            label2.Size = new Size(166, 31);
-            label2.TabIndex = 1;
-            label2.Text = "Tên đăng nhập";
+            lblMatKhau.AutoSize = true;
+            lblMatKhau.Font = new Font("Segoe UI", 13.8F);
+            lblMatKhau.Location = new Point(53, 398);
+            lblMatKhau.Name = "lblMatKhau";
+            lblMatKhau.Size = new Size(110, 31);
+            lblMatKhau.TabIndex = 2;
+            lblMatKhau.Text = "Mật khẩu";
+            // 
+            // lblTenDN
+            // 
+            lblTenDN.AutoSize = true;
+            lblTenDN.Font = new Font("Segoe UI", 13.8F);
+            lblTenDN.Location = new Point(53, 302);
+            lblTenDN.Name = "lblTenDN";
+            lblTenDN.Size = new Size(166, 31);
+            lblTenDN.TabIndex = 1;
+            lblTenDN.Text = "Tên đăng nhập";
             // 
             // panel2
             // 
@@ -156,7 +181,9 @@
             ClientSize = new Size(558, 618);
             Controls.Add(panel1);
             Name = "frmDangNhap";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Đăng nhập";
+            Load += frmDangNhap_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -170,12 +197,13 @@
         private Panel panel1;
         private Panel panel2;
         private PictureBox pictureBox1;
-        private Label label2;
+        private Label lblTenDN;
         private Label label1;
-        private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label3;
-        private Button button2;
-        private Button button1;
+        private TextBox txtMatKhau;
+        private TextBox txtTenDN;
+        private Label lblMatKhau;
+        private Button btnDangKi;
+        private Button btnDangNhap;
+        private Guna.UI2.WinForms.Guna2CheckBox ckbHienThiMatKhau;
     }
 }

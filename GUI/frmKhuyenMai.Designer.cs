@@ -674,6 +674,7 @@
             Controls.Add(btnThemKM);
             Controls.Add(groupBox1);
             Controls.Add(guna2Panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "frmKhuyenMai";
             Text = "frmKhuyenMai";
             guna2Panel1.ResumeLayout(false);

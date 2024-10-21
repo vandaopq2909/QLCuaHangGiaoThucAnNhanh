@@ -237,8 +237,8 @@ namespace GUI
 
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
-            var ngayChon = dtpNgayTimKiem.Value;
-            var ngayChonStr = ngayChon.ToString("yyyy-MM-dd HH:mm:ss");
+            var ngayChon = dtpNgayTimKiem.Value.ToUniversalTime();
+            long timestamp = ((DateTimeOffset)ngayChon).ToUnixTimeMilliseconds();
             var tenMonAnChon = txtMonAnTimKiem.Text;
 
             if (!string.IsNullOrWhiteSpace(tenMonAnChon))
@@ -252,13 +252,17 @@ namespace GUI
             }
             else
             {
-                var q5 = session.Prepare("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa " +
-                                          "FROM KMTheoMonAn " +
-                                          "WHERE NgayBD = ? AND NgayKT >= ? ALLOW FILTERING");
-                var boundStatement_q5 = q5.Bind(ngayChon, ngayChon);
-                var result_q5 = session.Execute(boundStatement_q5);
+                //var q5 = session.Prepare("SELECT MaMonAn, TenKM, TenMonAn, TiLe, NgayBD, NgayKT, MoTa FROM KMTheoMonAn WHERE NgayBD = ? AND NgayKT >= ? ALLOW FILTERING");
+                //var ngayKT = ngayChon;
+                //var boundStatement_q5 = q5.Bind(ngayChon, ngayKT);
+                //var result = session.Execute(boundStatement_q5);
 
-                DisplayResults(result_q5);
+                //var result = session.Execute("SELECT * FROM KMTheoMonAn ALLOW FILTERING");
+                //var filteredResults = result.Where(row => row.GetValue<DateTime>("NgayBD") <= ngayChon &&
+                //  row.GetValue<DateTime>("NgayKT") >= ngayChon);
+
+                //DisplayResults(result);
+
             }
         }
 

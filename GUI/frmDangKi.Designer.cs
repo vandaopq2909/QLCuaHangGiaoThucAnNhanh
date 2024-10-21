@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            txtNhapLai = new TextBox();
+            label4 = new Label();
             button2 = new Button();
             button1 = new Button();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            txtMatKhau = new TextBox();
+            txtTenDangNhap = new TextBox();
             label3 = new Label();
             label2 = new Label();
             panel2 = new Panel();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            textBox3 = new TextBox();
-            label4 = new Label();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -47,12 +47,12 @@
             // 
             // panel1
             // 
-            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(txtNhapLai);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(button2);
             panel1.Controls.Add(button1);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
+            panel1.Controls.Add(txtMatKhau);
+            panel1.Controls.Add(txtTenDangNhap);
             panel1.Controls.Add(label3);
             panel1.Controls.Add(label2);
             panel1.Controls.Add(panel2);
@@ -61,6 +61,24 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(558, 618);
             panel1.TabIndex = 0;
+            // 
+            // txtNhapLai
+            // 
+            txtNhapLai.Font = new Font("Segoe UI", 13.8F);
+            txtNhapLai.Location = new Point(53, 501);
+            txtNhapLai.Name = "txtNhapLai";
+            txtNhapLai.Size = new Size(422, 38);
+            txtNhapLai.TabIndex = 8;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 13.8F);
+            label4.Location = new Point(53, 456);
+            label4.Name = "label4";
+            label4.Size = new Size(201, 31);
+            label4.TabIndex = 7;
+            label4.Text = "Nhập lại mật khẩu";
             // 
             // button2
             // 
@@ -73,6 +91,7 @@
             button2.TabIndex = 6;
             button2.Text = "Đăng kí";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -85,22 +104,23 @@
             button1.TabIndex = 5;
             button1.Text = "Đăng nhập";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
-            // textBox2
+            // txtMatKhau
             // 
-            textBox2.Font = new Font("Segoe UI", 13.8F);
-            textBox2.Location = new Point(53, 415);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(422, 38);
-            textBox2.TabIndex = 4;
+            txtMatKhau.Font = new Font("Segoe UI", 13.8F);
+            txtMatKhau.Location = new Point(53, 415);
+            txtMatKhau.Name = "txtMatKhau";
+            txtMatKhau.Size = new Size(422, 38);
+            txtMatKhau.TabIndex = 4;
             // 
-            // textBox1
+            // txtTenDangNhap
             // 
-            textBox1.Font = new Font("Segoe UI", 13.8F);
-            textBox1.Location = new Point(53, 317);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(422, 38);
-            textBox1.TabIndex = 3;
+            txtTenDangNhap.Font = new Font("Segoe UI", 13.8F);
+            txtTenDangNhap.Location = new Point(53, 317);
+            txtTenDangNhap.Name = "txtTenDangNhap";
+            txtTenDangNhap.Size = new Size(422, 38);
+            txtTenDangNhap.TabIndex = 3;
             // 
             // label3
             // 
@@ -154,24 +174,6 @@
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
-            // textBox3
-            // 
-            textBox3.Font = new Font("Segoe UI", 13.8F);
-            textBox3.Location = new Point(53, 501);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(422, 38);
-            textBox3.TabIndex = 8;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 13.8F);
-            label4.Location = new Point(53, 456);
-            label4.Name = "label4";
-            label4.Size = new Size(201, 31);
-            label4.TabIndex = 7;
-            label4.Text = "Nhập lại mật khẩu";
-            // 
             // frmDangKi
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -179,7 +181,9 @@
             ClientSize = new Size(558, 618);
             Controls.Add(panel1);
             Name = "frmDangKi";
-            Text = "Đăng nhập";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Đăng kí";
+            Load += frmDangKi_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             panel2.ResumeLayout(false);
@@ -195,12 +199,12 @@
         private PictureBox pictureBox1;
         private Label label2;
         private Label label1;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox txtMatKhau;
+        private TextBox txtTenDangNhap;
         private Label label3;
         private Button button2;
         private Button button1;
-        private TextBox textBox3;
+        private TextBox txtNhapLai;
         private Label label4;
     }
 }
